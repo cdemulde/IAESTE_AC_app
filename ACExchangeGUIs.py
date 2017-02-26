@@ -38,7 +38,7 @@ class ReadData():
         self.docstring.config(width=75)
         
         #set default value for the data file
-        self.data_file.set('/Users/chaimdemulder/Desktop/IAESTE/2016-2017/Exchange/A-form 2016-2017.csv')
+        self.data_file.set('./interests.csv')
         
         ###
         #browse button
@@ -286,7 +286,7 @@ class AddOfferFrame():
         self.docstring_offers.config(width=30)
         
         #set default value for the data file
-        self.exchanged_offers_filepath.set('/Users/chaimdemulder/Desktop/IAESTE/2016-2017/AC/Exchanged_2017.csv')
+        self.exchanged_offers_filepath.set('./exchanged.csv')
         #self.docstring_offers.insert(0,'Exchanged_2017.csv')
         
         self.browse = tk.Button(self.add_internship, text='Browse', command = self.browse_files_out)
